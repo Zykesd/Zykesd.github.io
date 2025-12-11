@@ -9,7 +9,7 @@ if (form) {
 
     if (username === "admin" && password === "1234") {
       localStorage.setItem("user", username);
-      window.location.href = "home.html";
+      window.location.href = "index.html";
     } else {
       error.textContent = "Invalid username or password!";
     }
